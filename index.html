@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   <fieldset>
+    <legend>Personal Details</legend>
+    <form action="">
+        <label for="fname">Firstname :</label>
+        <input type="text" name="firstname" id="fname">
+
+        <br>
+        <br>
+        <label for="mname">Middlename :</label>
+        <input type="text" name="middlename" id="mname">
+
+        <br>
+        <br>
+
+        <label for="lname">Lastname:</label>
+        <input type="text" name="lastname" id="lname">
+
+        <br>
+        <br>
+        
+        <label for="course">Course :</label>
+        <select name="course" id="course">
+            <option value="Course">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            <option value="M.Tech">M.Tech</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="gender">Gender : </label>
+
+        <br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male </label>
+        <br>
+        
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female </label>
+        <br>
+        
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">Other </label>
+
+        <br>
+        <br>
+
+        <label for="dob-time">DOB</label>
+        <input type="datetime-local" id="dob-time" name="dob-time">
+        <br>
+
+        <label for="ph">Phone : </label>
+        <input type="text" id="ph"  placeholder="+91" disabled  size="1">
+        <input type="text" id="ph" name="ph" maxlength="10" size="10">
+
+        <br>
+        <br>
+ 
+        <label for="address">Address</label>
+        <br>
+        <textarea name="address" rows="5" cols="80" id="address"></textarea>
+         
+        <br>
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+
+        <br>
+        <br>
+        <br>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required>
+
+        <br>
+        <br>
+        <br>
+
+        <label for="Re-type password">Re-type password: </label>
+        <input type="password" name="Re-type-password" id="Re-type password" required>
+    
+        <br>
+        <br>
+
+        <input type="checkbox" id="checkbox" name="Agree">
+        <label for="checkbox">Agree to terms and conditions</label>
+
+        <br>
+        <br>
+
+        <label for="file">Choose File</label>
+        <input type="file" name="file" id="file" >
+
+        <br>
+        <br>
+        
+        <label for="color">Choose Color</label>
+        <input type="color" name="color" id="color" >
+
+        <br>
+        <br>
+
+        <input type="reset" name="reset" id="reset">
+        <input type="submit" name="submit" id="submit">
+
+    </form>
+   </fieldset>
+</body>
+</html>
